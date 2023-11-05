@@ -4,7 +4,7 @@
     align-items: center;
     flex-direction: column;
     height: 70vh;
-    background-image: linear-gradient(to right , rgb(247, 244, 244), rgb(246, 247, 238), rgb(247, 250, 247),rgb(242, 242, 243), rgb(247, 249, 249));
+    background-image: linear-gradient(to right , rgb(243, 233, 233), rgb(241, 233, 233), rgb(240, 240, 228),rgb(229, 229, 239), rgb(232, 244, 232));
 }
 
 @media (max-width: 768px){
