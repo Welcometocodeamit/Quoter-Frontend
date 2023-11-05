@@ -1,0 +1,35 @@
+#homepage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 70vh;
+}
+
+@media (max-width: 768px){
+    #homepage{
+        height: auto;
+    }
+
+}
+
+#inputname{
+    padding: 5px 20px;
+    font-family: 'Poppins', sans-serif;
+    font-family: Poppins;
+    border-radius: 5px;
+    border: 2px solid #0076CE;
+    color: #0076CE;
+    font-weight: 600;
+}
+
+#btn{
+    padding: 5px 20px;
+    border-radius: 5px;
+    background-color:  #0076CE;
+    color: aliceblue;
+}
+
+#inputdiv{
+    padding-bottom: 20px;
+}

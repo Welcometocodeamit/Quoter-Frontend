@@ -1,0 +1,44 @@
+.navbarmain{
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    height: auto;
+    align-items: center;
+    font-weight: 700;
+    flex-wrap: wrap;
+}
+
+.rightnav{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li, button{
+    margin: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-family: Poppins;
+    cursor: pointer;
+}
+
+#loginbtn{
+    border: 1.5px solid #0076CE;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: #0076CE;
+}
+
+#registerbtn{
+    padding: 10px 20px;
+    background-color:#0076CE;
+    color: white;
+    border-radius: 10px;
+}
+
+.list{
+    text-decoration: none;
+    color: black;
+}
+
+.list:hover{
+    color: #0076CE;
+}

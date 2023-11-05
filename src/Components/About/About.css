@@ -1,0 +1,16 @@
+#containerabout{
+    width: 90%;
+}
+
+#aboutHome{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width:768){
+    #containerabout{
+        width: 100%;
+    }
+}
