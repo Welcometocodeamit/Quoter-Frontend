@@ -9,6 +9,8 @@
     position: sticky;
     top: 0;
     z-index: 22;
+    opacity: 1;
+    background-image: linear-gradient(to right , white, rgb(252, 247, 247), rgb(247, 247, 240),rgb(240, 240, 248), rgb(247, 249, 247));
 }
 
 .rightnav{

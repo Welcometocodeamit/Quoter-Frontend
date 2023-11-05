@@ -32,4 +32,9 @@
 
 #inputdiv{
     padding-bottom: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
 }
