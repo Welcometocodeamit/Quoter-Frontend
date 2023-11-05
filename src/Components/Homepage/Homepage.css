@@ -4,11 +4,13 @@
     align-items: center;
     flex-direction: column;
     height: 70vh;
+    background-image: linear-gradient(to right , rgb(247, 244, 244), rgb(246, 247, 238), rgb(247, 250, 247),rgb(242, 242, 243), rgb(247, 249, 249));
 }
 
 @media (max-width: 768px){
     #homepage{
         height: auto;
+        width: 100vw;
     }
 
 }

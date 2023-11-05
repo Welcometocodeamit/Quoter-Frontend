@@ -10,7 +10,7 @@
     top: 0;
     z-index: 22;
     opacity: 1;
-    background-image: linear-gradient(to right , white, rgb(252, 247, 247), rgb(247, 247, 240),rgb(240, 240, 248), rgb(247, 249, 247));
+    background-image: linear-gradient(to right , rgb(243, 233, 233), rgb(241, 233, 233), rgb(240, 240, 228),rgb(229, 229, 239), rgb(232, 244, 232));
 }
 
 .rightnav{
@@ -46,4 +46,16 @@ li, button{
 
 .list:hover{
     color: #0076CE;
+}
+
+@media (max-width:728px){
+
+    .navbarmain{
+        justify-content: flex-start;
+    }
+
+    ul{
+        padding: 0px 10px;
+    }
+
 }
