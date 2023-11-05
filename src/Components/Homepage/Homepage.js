@@ -21,7 +21,7 @@ export default class Homepage extends Component {
 
     async componentDidMount() {
         try {
-          let url = "http://localhost:8080/api/quotes";
+          let url = "https://quoter-backend-production.up.railway.app/api/quotes";
           let response = await fetch(url);
           let parsedData = await response.json();
           const randomIndex = Math.floor(Math.random() * parsedData.data.length);
@@ -40,7 +40,7 @@ export default class Homepage extends Component {
 
       async getData() {
         try {
-          let url = "http://localhost:8080/api/quotes";
+          let url = "https://quoter-backend-production.up.railway.app/api/quotes";
           let response = await fetch(url);
           let parsedData = await response.json();
           let fullyParsedData = parsedData.data;
